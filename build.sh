@@ -3,6 +3,7 @@
 # environmental and build settings
 KEYFILE="${KEYFILE:-"$HOME/.ecdsakey"}"
 GLUON_PRIORITY="${GLUON_PRIORITY:-7}"
+export BROKEN=true
 
 # start of script
 set -eu
